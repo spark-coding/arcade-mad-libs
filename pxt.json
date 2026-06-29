@@ -1,0 +1,19 @@
+{
+    "name": "mad-libs-arcade",
+    "version": "0.0.1",
+    "description": "Mad Libs starter — word lists are ready. Students write the story logic.",
+    "dependencies": {
+        "device": "*"
+    },
+    "files": [
+        "main.ts",
+        "main.blocks",
+        "assets.jres",
+        "README.md"
+    ],
+    "preferredEditor": "blocksprj",
+    "targetVersions": {
+        "target": "1.12.0",
+        "targetId": "arcade"
+    }
+}
