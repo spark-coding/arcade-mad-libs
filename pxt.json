@@ -6,10 +6,11 @@
         "device": "*"
     },
     "files": [
+        "main.blocks",
         "main.ts",
         "README.md"
     ],
-    "preferredEditor": "tsprj",
+    "preferredEditor": "blocksprj",
     "targetVersions": {
         "target": "1.12.0",
         "targetId": "arcade"

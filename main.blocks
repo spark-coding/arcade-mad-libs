@@ -1,0 +1,69 @@
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <variables>
+    <variable id="sub">subjects</variable>
+    <variable id="vrb">verbs</variable>
+    <variable id="obj">objects</variable>
+  </variables>
+  <block type="pxt-on-start" x="0" y="0">
+    <statement name="HANDLER">
+      <block type="variables_set">
+        <field name="VAR" id="sub">subjects</field>
+        <value name="VALUE">
+          <block type="lists_create_with">
+            <mutation items="10"></mutation>
+            <value name="ADD0"><block type="text"><field name="TEXT">The King</field></block></value>
+            <value name="ADD1"><block type="text"><field name="TEXT">My Teacher</field></block></value>
+            <value name="ADD2"><block type="text"><field name="TEXT">A Penguin</field></block></value>
+            <value name="ADD3"><block type="text"><field name="TEXT">The President</field></block></value>
+            <value name="ADD4"><block type="text"><field name="TEXT">A Dinosaur</field></block></value>
+            <value name="ADD5"><block type="text"><field name="TEXT">My Grandma</field></block></value>
+            <value name="ADD6"><block type="text"><field name="TEXT">Batman</field></block></value>
+            <value name="ADD7"><block type="text"><field name="TEXT">A Giant Potato</field></block></value>
+            <value name="ADD8"><block type="text"><field name="TEXT">The Principal</field></block></value>
+            <value name="ADD9"><block type="text"><field name="TEXT">A Dancing Robot</field></block></value>
+          </block>
+        </value>
+        <next>
+          <block type="variables_set">
+            <field name="VAR" id="vrb">verbs</field>
+            <value name="VALUE">
+              <block type="lists_create_with">
+                <mutation items="10"></mutation>
+                <value name="ADD0"><block type="text"><field name="TEXT">ate</field></block></value>
+                <value name="ADD1"><block type="text"><field name="TEXT">kissed</field></block></value>
+                <value name="ADD2"><block type="text"><field name="TEXT">threw</field></block></value>
+                <value name="ADD3"><block type="text"><field name="TEXT">chased</field></block></value>
+                <value name="ADD4"><block type="text"><field name="TEXT">hugged</field></block></value>
+                <value name="ADD5"><block type="text"><field name="TEXT">tickled</field></block></value>
+                <value name="ADD6"><block type="text"><field name="TEXT">high-fived</field></block></value>
+                <value name="ADD7"><block type="text"><field name="TEXT">sat on</field></block></value>
+                <value name="ADD8"><block type="text"><field name="TEXT">painted</field></block></value>
+                <value name="ADD9"><block type="text"><field name="TEXT">juggled</field></block></value>
+              </block>
+            </value>
+            <next>
+              <block type="variables_set">
+                <field name="VAR" id="obj">objects</field>
+                <value name="VALUE">
+                  <block type="lists_create_with">
+                    <mutation items="10"></mutation>
+                    <value name="ADD0"><block type="text"><field name="TEXT">a shoe</field></block></value>
+                    <value name="ADD1"><block type="text"><field name="TEXT">the moon</field></block></value>
+                    <value name="ADD2"><block type="text"><field name="TEXT">some broccoli</field></block></value>
+                    <value name="ADD3"><block type="text"><field name="TEXT">a smelly sock</field></block></value>
+                    <value name="ADD4"><block type="text"><field name="TEXT">my homework</field></block></value>
+                    <value name="ADD5"><block type="text"><field name="TEXT">a rubber duck</field></block></value>
+                    <value name="ADD6"><block type="text"><field name="TEXT">the TV remote</field></block></value>
+                    <value name="ADD7"><block type="text"><field name="TEXT">a giant cookie</field></block></value>
+                    <value name="ADD8"><block type="text"><field name="TEXT">the school bus</field></block></value>
+                    <value name="ADD9"><block type="text"><field name="TEXT">a purple banana</field></block></value>
+                  </block>
+                </value>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+</xml>
