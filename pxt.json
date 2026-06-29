@@ -7,11 +7,9 @@
     },
     "files": [
         "main.ts",
-        "main.blocks",
-        "assets.jres",
         "README.md"
     ],
-    "preferredEditor": "blocksprj",
+    "preferredEditor": "tsprj",
     "targetVersions": {
         "target": "1.12.0",
         "targetId": "arcade"
